@@ -109,9 +109,10 @@ nav ul li a{
     line-height: 200%;
     color: #fff;
     margin-bottom: 30px;
+    width: 457px;
 }
 .hero-section .left{
-    width: 457px;
+    flex: 1;
 }
 .hero-section .right{
     align-self: flex-end;
@@ -128,10 +129,12 @@ nav ul li a{
     border-radius: 24px;
     background: #fff;
     padding: 8px 32px;
+    position: relative;
+    z-index: 10;
 }
 .achivement-card.students-enroled{
-    left: 47%;
-    top: 210px;
+    left: 49%;
+    top: 220px;
 }
 .achivement-card h3{
     font-family: 'Poppins',sans-serif;
@@ -148,16 +151,35 @@ nav ul li a{
     font-weight: 400;
     font-size: 16px;
     line-height: 125%;
+    margin-top: -2px;
+    margin-bottom: 8px;
+    }
+.achivement-card .bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);
+        border-radius: 24px;
+        top: 8px;
+        left: 8px;
+        z-index: 1;
     }
 .achivement-card.overall-rating{
     left: 43%;
-    top: 370px;
+    top: 470px;
+    
 }
 .score{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .score img{
     width: 30px;
 }
 /* header css end from here */
+/* testmonials css start from here */
+
+
+
+/* testmonials css ends from here */
