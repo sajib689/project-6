@@ -26,7 +26,7 @@ body{
     color: #fff;
     display: inline-block;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     position: relative;
 }
@@ -86,20 +86,78 @@ nav ul li a{
     font-size: 16px;
 }
 .hero-section{
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 60px;
+    position: relative;
 }
 .hero-section .left h1{
     font-family: 'Raleway',sans-serif;
     font-size: 50px;
     font-weight: 900;
+    line-height: 125%;
     color: #fff;
+    margin-bottom: 0;
 }
 .hero-section .left p{
     font-family: 'Poppins',sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: normal;
+    line-height: 200%;
     color: #fff;
+    margin-bottom: 30px;
+}
+.hero-section .left{
+    width: 457px;
+}
+.hero-section .right{
+    align-self: flex-end;
+}
+.hero-section .right img{
+    height: 480px;
+    vertical-align: middle;
+}
+
+.achivement-card{
+    position: absolute;
+}
+.achivement-card .content{
+    border-radius: 24px;
+    background: #fff;
+    padding: 8px 32px;
+}
+.achivement-card.students-enroled{
+    left: 47%;
+    top: 210px;
+}
+.achivement-card h3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 125%;
+    color: #023047;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.achivement-card p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    }
+.achivement-card.overall-rating{
+    left: 43%;
+    top: 370px;
+}
+.score{
+    display: flex;
+    align-items: center;
+}
+.score img{
+    width: 30px;
 }
 /* header css end from here */
