@@ -370,6 +370,24 @@ section p{
 /* our app css start from here */
 .app-section{
     margin-bottom: 100px;
+    text-align: center;
+}
+.app-section .app-buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+
+}
+.app-section .app-buttons .app-btn{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    background: var(--dark-color);
+    padding: 20px 31px;
+    width: 310px;
+    height: 100px;
 }
 .app-section h2{
     font-family: 'Raleway',sans-serif;
@@ -388,24 +406,7 @@ section p{
     text-align: center;
     color: #023047;
 }
-.app-section .app-buttons{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 45px;
 
-}
-.app-section .app-buttons .app-btn{
-    
-    display: flex;
-    gap: 14px;
-    align-items: center;
-    background: var(--dark-color);
-    padding: 20px 31px;
-    width: 310px;
-    height: 100px;
-}
 .app-section .app-buttons .app-btn span{
     font-family: 'Poppins',sans-serif;
     font-weight: 400;
@@ -418,37 +419,19 @@ section p{
 /* footer css start from here */
 footer{
     background: #070917;
-}
-.links-container{
-    display: flex;
-    padding-top: 70px;
-}
-.links-container a{
+    margin-top: 100px;
     color: #fff;
-    text-decoration: none;
-    font-family: 'Poppins',sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 200%;
-    color: #FFFFFF;
+    padding: 70px 0;
 }
-.links-container .links li{
-    list-style-type: none;
-}
-.links-container .links{
-    margin-right: 132px;
-}
-.links-container .links li{
-    margin-left: 48px;
-    margin-bottom: 6px;
-    color: #fff;
-}
-.links-container .links h3{
+footer h3{
     font-family: 'Poppins',sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 200%;
-    text-align: center;
     color: #DA722C;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
 }
 /* footer css start from here */
