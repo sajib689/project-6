@@ -368,6 +368,9 @@ section p{
 }
 /* our course section css ends from here */
 /* our app css start from here */
+.app-section{
+    margin-bottom: 100px;
+}
 .app-section h2{
     font-family: 'Raleway',sans-serif;
     font-weight: 900;
@@ -413,7 +416,39 @@ section p{
 }
 /* our app css ends from here */
 /* footer css start from here */
-
-
-
+footer{
+    background: #070917;
+}
+.links-container{
+    display: flex;
+    padding-top: 70px;
+}
+.links-container a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+.links-container .links li{
+    list-style-type: none;
+}
+.links-container .links{
+    margin-right: 132px;
+}
+.links-container .links li{
+    margin-left: 48px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+.links-container .links h3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    text-align: center;
+    color: #DA722C;
+}
 /* footer css start from here */
