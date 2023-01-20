@@ -503,3 +503,22 @@ footer .copyright{
     margin-top: 36px;
 }
 /* footer css start from here */
+/* responsive css */
+
+@media (max-width: 1100px){
+    .btn{
+        padding: 12px 32px;
+    }
+    .wrapper{
+        padding: 0 100px;
+    }
+    nav{
+        width: 100%;
+        padding: 36px 100px;
+        left: 0;
+        right: 0;
+    }
+    nav.scrolled{
+        padding: 16px 100px;
+    }
+}
