@@ -368,7 +368,52 @@ section p{
 }
 /* our course section css ends from here */
 /* our app css start from here */
+.app-section h2{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+    text-align: center;
+    color: #023047;
 
+}
+.app-section p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    color: #023047;
+}
+.app-section .app-buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
 
-
+}
+.app-section .app-buttons .app-btn{
+    
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    background: var(--dark-color);
+    padding: 20px 31px;
+    width: 310px;
+    height: 100px;
+}
+.app-section .app-buttons .app-btn span{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 200%;
+    text-align: center;
+    color: #FFFFFF;
+}
 /* our app css ends from here */
+/* footer css start from here */
+
+
+
+/* footer css start from here */
