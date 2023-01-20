@@ -285,50 +285,56 @@ section p{
 }
 /* testmonials css ends from here */
 /* our course section css start from here */
-section{
-    margin-top: 100px;
-}
 .courses-section{
+    padding-bottom: 120px;
     background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    padding: 70px 0;
     height: 785px;
     position: relative;
 }
-h2{
+.courses-section .wrapper h2{
     font-family: 'Raleway',sans-serif;
     font-weight: 900;
     font-size: 60px;
     line-height: 120%;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 70px;
-    padding-bottom: 56px;
 }
 .courses-section .wrapper .course-cards{
     display: flex;
-    gap: 83px;
+    gap: 70px;
 }
-/* .courses-section .wrapper .course-cards .position{
-    position: absolute;
-    left: 200px;
-} */
+
 .courses-section .wrapper .course-cards .course-card{
-    width: 526px;
-    height: 350px;
+    padding: 0px 32px;
     background: #fff;
     border-radius: 24px;
-    
+    margin: 40px 0px;
+    position: relative;
+}
+.courses-section .course-card::after{
+    content: '';
+    height: 8px;
+    left: 32px;
+    right: 32px;
+    bottom: 0;    
+    border-radius: 24px;
+    background: var(--dark-blue-color);
+    position: absolute;
 }
 .courses-section .wrapper .course-cards .course-card img{
-    width: 462px;
-    height: 260px;
+    width: 100%;
+    border-radius: 24px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 24px;
 }
 .courses-section .wrapper .course-cards .course-card .info{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 16px;
 }
-.courses-section .wrapper .course-cards .course-card .info h4{
+.courses-section .wrapper .course-cards .course-card .info h3{
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 30px;
@@ -336,11 +342,33 @@ h2{
     color: #023047;
 
 }
-.courses-section .wrapper .course-cards .course-card .info div{
+.courses-section .wrapper .course-cards .course-card .info .duration{
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 16px;
     line-height: 150%;
+    white-space: nowrap;
     color: #023047;
+    position: relative;
+    padding-left: 20px;
+}
+.courses-section .wrapper .course-cards .course-card .info .duration::before{
+    content: url(./images/clock.svg);
+    color: var(--dark-color);
+    position: absolute;
+    top: 2px;
+    left: -6px;
+}
+.courses-section .wrapper{
+    position: relative;
+}
+.courses-section .wrapper .position{
+    position: absolute;
+    right: 0;
 }
 /* our course section css ends from here */
+/* our app css start from here */
+
+
+
+/* our app css ends from here */
