@@ -14,8 +14,8 @@ window.addEventListener('scroll',()=>{
 })
 
 menuIcon.addEventListener('click',()=>{
-    mobileMenuContainer.classList.add('.active')
+    mobileMenuContainer.classList.add('active')
 })
 closeIcon.addEventListener('click',()=>{
-    mobileMenuContainer.classList.remove('.active');
+    mobileMenuContainer.classList.remove('active');
 });
