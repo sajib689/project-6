@@ -763,6 +763,9 @@ nav.mobile-nav{
       .courses-section .wrapper .btn{
         right: 32px;
       }
+      .app-section h2{
+        font-size: 50px;
+      }
       footer .links-container{
         grid-template-columns: 1fr;
         text-align: center;
