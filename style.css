@@ -722,11 +722,11 @@ nav.mobile-nav{
     }
     .hero-section .right img{
         height: 400px;
-        transform: translateY(50px);
+        transform: translateX(50px);
     }
     .hero-section .right{
         overflow: hidden;
-        transform: translateY(30px);
+        transform: translateX(30px);
 
     }
     .achivement-card h3{
