@@ -751,6 +751,9 @@ nav.mobile-nav{
         width: 100px;
         height: 100px;
       }
+      .courses-section .wrapper h2{
+        font-size: 46px;
+      }
       .courses-section .wrapper{
         padding: 0;
       }
