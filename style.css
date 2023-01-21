@@ -722,12 +722,15 @@ nav.mobile-nav{
     }
     .hero-section .right img{
         height: 400px;
+        transform: translateY(50px);
     }
     .hero-section .right{
-        transform: translateY(40px);
+        overflow: hidden;
+        transform: translateY(30px);
+
     }
     .achivement-card h3{
-        font-size: 25px;
+        font-size: 30px;
     }
     .hero-section .achivement-card{
         margin-bottom: 48px;
@@ -735,4 +738,47 @@ nav.mobile-nav{
     .hero-section .achivement-cards{
         margin: 0;
     }
+    h2{
+       font-size: 30px; 
+    }
+    .testimonials-section .testimonial-card .info h4{
+        font-size: 18px;
+    }
+    .testimonials-section .testimonial-card .info p.company{
+        font-size: 14px;
+    }
+    .testimonials-section .testimonial-card img {
+        width: 100px;
+        height: 100px;
+      }
+      .courses-section .wrapper{
+        padding: 0;
+      }
+      .courses-section .wrapper img{
+        height: 240px;
+      }
+      .courses-section .wrapper .btn{
+        right: 32px;
+      }
+      footer .links-container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+      }
+      footer .links-container .links:last-child{
+        grid-column: 1/2;
+      }
+      footer ul{
+        padding: 0;
+      }
+      footer form .submit-btn{
+        top: 130%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      footer .copyright{
+        margin-top: 80px;
+        text-align: center;
+      }
+
 }
